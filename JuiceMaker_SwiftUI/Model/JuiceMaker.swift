@@ -20,24 +20,28 @@ struct JuiceMaker {
         case mangKiJuice
     }
     
-    func makeJuice(juice: Juice) {
-        switch juice {
-        case .strawberryJuice:
-            fruitStore.subtractFruits(fruitName: .strawberry, count: 16)
-        case .bananJuice:
-            fruitStore.subtractFruits(fruitName: .banana, count: 2)
-        case .kiwiJuice:
-            fruitStore.subtractFruits(fruitName: .kiwi, count: 3)
-        case .pineappleJuice:
-            fruitStore.subtractFruits(fruitName: .pineapple, count: 2)
-        case .ddalBaJuice:
-            fruitStore.subtractFruits(fruitName: .strawberry, count: 10)
-            fruitStore.subtractFruits(fruitName: .banana, count: 1)
-        case .mangoJuice:
-            fruitStore.subtractFruits(fruitName: .mango, count: 3)
-        case .mangKiJuice:
-            fruitStore.subtractFruits(fruitName: .mango, count: 2)
-            fruitStore.subtractFruits(fruitName: .kiwi, count: 1)
+    func makeJuice(juice: Juice) throws {
+        do {
+            switch juice {
+            case .strawberryJuice:
+                try fruitStore.subtractFruits(fruitName: .strawberry, count: 16)
+            case .bananJuice:
+                try fruitStore.subtractFruits(fruitName: .banana, count: 2)
+            case .kiwiJuice:
+                try fruitStore.subtractFruits(fruitName: .kiwi, count: 3)
+            case .pineappleJuice:
+                try fruitStore.subtractFruits(fruitName: .pineapple, count: 2)
+            case .ddalBaJuice:
+                try fruitStore.subtractFruits(fruitName: .strawberry, count: 10)
+                try fruitStore.subtractFruits(fruitName: .banana, count: 1)
+            case .mangoJuice:
+                try fruitStore.subtractFruits(fruitName: .mango, count: 3)
+            case .mangKiJuice:
+                try fruitStore.subtractFruits(fruitName: .mango, count: 2)
+                try fruitStore.subtractFruits(fruitName: .kiwi, count: 1)
+            }
+        } catch(let error) {
+            throw error
         }
     }
 }
