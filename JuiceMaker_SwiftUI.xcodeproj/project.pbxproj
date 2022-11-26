@@ -11,6 +11,7 @@
 		ACD3C15C29322EF300BB7B05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C15B29322EF300BB7B05 /* ContentView.swift */; };
 		ACD3C15E29322EF400BB7B05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD3C15D29322EF400BB7B05 /* Assets.xcassets */; };
 		ACD3C16129322EF400BB7B05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD3C16029322EF400BB7B05 /* Preview Assets.xcassets */; };
+		ACD3C1692932312500BB7B05 /* FruitStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C1682932312500BB7B05 /* FruitStore.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		ACD3C15B29322EF300BB7B05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACD3C15D29322EF400BB7B05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACD3C16029322EF400BB7B05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		ACD3C1682932312500BB7B05 /* FruitStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitStore.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -53,6 +55,7 @@
 			children = (
 				ACD3C15929322EF300BB7B05 /* JuiceMaker_SwiftUIApp.swift */,
 				ACD3C15B29322EF300BB7B05 /* ContentView.swift */,
+				ACD3C167293230EB00BB7B05 /* Model */,
 				ACD3C15D29322EF400BB7B05 /* Assets.xcassets */,
 				ACD3C15F29322EF400BB7B05 /* Preview Content */,
 			);
@@ -65,6 +68,14 @@
 				ACD3C16029322EF400BB7B05 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		ACD3C167293230EB00BB7B05 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				ACD3C1682932312500BB7B05 /* FruitStore.swift */,
+			);
+			path = Model;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -139,6 +150,7 @@
 			files = (
 				ACD3C15C29322EF300BB7B05 /* ContentView.swift in Sources */,
 				ACD3C15A29322EF300BB7B05 /* JuiceMaker_SwiftUIApp.swift in Sources */,
+				ACD3C1692932312500BB7B05 /* FruitStore.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
