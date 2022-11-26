@@ -10,6 +10,14 @@ import Foundation
 final class FruitStore: ObservableObject {
     @Published var fruits: [FruitName : Fruit]
     
+    func addFruits(fruitName: FruitName, count: Int) {
+        fruits[fruitName]?.count += count
+    }
+    
+    func subtractFruits(fruitName: FruitName, count: Int) {
+        fruits[fruitName]?.count -= count
+    }
+    
     init(fruits: [FruitName : Fruit]) {
         self.fruits = fruits
     }
