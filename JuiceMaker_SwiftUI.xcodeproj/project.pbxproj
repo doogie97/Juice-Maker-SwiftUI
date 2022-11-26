@@ -12,6 +12,7 @@
 		ACD3C15E29322EF400BB7B05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD3C15D29322EF400BB7B05 /* Assets.xcassets */; };
 		ACD3C16129322EF400BB7B05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD3C16029322EF400BB7B05 /* Preview Assets.xcassets */; };
 		ACD3C1692932312500BB7B05 /* FruitStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C1682932312500BB7B05 /* FruitStore.swift */; };
+		ACD3C16B2932347300BB7B05 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C16A2932347300BB7B05 /* Fruit.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +22,7 @@
 		ACD3C15D29322EF400BB7B05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACD3C16029322EF400BB7B05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACD3C1682932312500BB7B05 /* FruitStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitStore.swift; sourceTree = "<group>"; };
+		ACD3C16A2932347300BB7B05 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,6 +76,7 @@
 			isa = PBXGroup;
 			children = (
 				ACD3C1682932312500BB7B05 /* FruitStore.swift */,
+				ACD3C16A2932347300BB7B05 /* Fruit.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -148,6 +151,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD3C16B2932347300BB7B05 /* Fruit.swift in Sources */,
 				ACD3C15C29322EF300BB7B05 /* ContentView.swift in Sources */,
 				ACD3C15A29322EF300BB7B05 /* JuiceMaker_SwiftUIApp.swift in Sources */,
 				ACD3C1692932312500BB7B05 /* FruitStore.swift in Sources */,
