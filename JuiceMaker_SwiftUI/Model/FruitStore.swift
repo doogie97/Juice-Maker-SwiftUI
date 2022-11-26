@@ -8,5 +8,9 @@
 import Foundation
 
 final class FruitStore: ObservableObject {
-    @Published var Fruits = []
+    @Published var fruits: [FruitName : Fruit]
+    
+    init(fruits: [FruitName : Fruit]) {
+        self.fruits = fruits
+    }
 }
