@@ -15,6 +15,7 @@
 		ACD3C16B2932347300BB7B05 /* Fruit.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C16A2932347300BB7B05 /* Fruit.swift */; };
 		ACD3C16D2932368800BB7B05 /* FruitsArrayForApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C16C2932368800BB7B05 /* FruitsArrayForApp.swift */; };
 		ACD3C16F29324D6D00BB7B05 /* JuiceMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C16E29324D6D00BB7B05 /* JuiceMaker.swift */; };
+		ACD3C1712932546500BB7B05 /* OutOfStockError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C1702932546500BB7B05 /* OutOfStockError.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,6 +28,7 @@
 		ACD3C16A2932347300BB7B05 /* Fruit.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fruit.swift; sourceTree = "<group>"; };
 		ACD3C16C2932368800BB7B05 /* FruitsArrayForApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsArrayForApp.swift; sourceTree = "<group>"; };
 		ACD3C16E29324D6D00BB7B05 /* JuiceMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuiceMaker.swift; sourceTree = "<group>"; };
+		ACD3C1702932546500BB7B05 /* OutOfStockError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutOfStockError.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				ACD3C1682932312500BB7B05 /* FruitStore.swift */,
+				ACD3C1702932546500BB7B05 /* OutOfStockError.swift */,
 				ACD3C16A2932347300BB7B05 /* Fruit.swift */,
 				ACD3C16E29324D6D00BB7B05 /* JuiceMaker.swift */,
 				ACD3C16C2932368800BB7B05 /* FruitsArrayForApp.swift */,
@@ -157,6 +160,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ACD3C1712932546500BB7B05 /* OutOfStockError.swift in Sources */,
 				ACD3C16B2932347300BB7B05 /* Fruit.swift in Sources */,
 				ACD3C16D2932368800BB7B05 /* FruitsArrayForApp.swift in Sources */,
 				ACD3C15C29322EF300BB7B05 /* ContentView.swift in Sources */,
