@@ -18,19 +18,6 @@ final class FruitStore: ObservableObject {
         fruits[fruitName]?.count += count
     }
     
-    func subtractFruits(fruitName: FruitName, count: Int) throws {
-        if fruits[fruitName]?.count ?? 0 < count {
-            switch fruitName {
-            case .strawberry:
-                throw OutOfStockError.strawberry
-            case .banana:
-                throw OutOfStockError.banana
-            case .pineapple:
-                throw OutOfStockError.pineapple
-            case .kiwi:
-                throw OutOfStockError.kiwi
-            case .mango:
-                throw OutOfStockError.mango
     private func checkStock(_ quantity: [FruitName : Int]) throws {
         for (fruitName, count) in quantity {
             if fruits[fruitName]?.count ?? 0 < count {
@@ -49,8 +36,16 @@ final class FruitStore: ObservableObject {
             }
         }
     }
+    
+    func subtractFruits(_ quantity: [FruitName : Int]) throws {
+        do {
+            try checkStock(quantity)
+        } catch(let error) {
+            throw error
+        }
         
-        fruits[fruitName]?.count -= count
+        for (fruit, count) in quantity {
+            fruits[fruit]?.count -= count
         }
     }
 }
