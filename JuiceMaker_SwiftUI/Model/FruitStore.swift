@@ -31,9 +31,26 @@ final class FruitStore: ObservableObject {
                 throw OutOfStockError.kiwi
             case .mango:
                 throw OutOfStockError.mango
+    private func checkStock(_ quantity: [FruitName : Int]) throws {
+        for (fruitName, count) in quantity {
+            if fruits[fruitName]?.count ?? 0 < count {
+                switch fruitName {
+                case .strawberry:
+                    throw OutOfStockError.strawberry
+                case .banana:
+                    throw OutOfStockError.banana
+                case .pineapple:
+                    throw OutOfStockError.pineapple
+                case .kiwi:
+                    throw OutOfStockError.kiwi
+                case .mango:
+                    throw OutOfStockError.mango
+                }
             }
         }
+    }
         
         fruits[fruitName]?.count -= count
+        }
     }
 }
