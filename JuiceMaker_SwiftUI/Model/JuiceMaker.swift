@@ -43,5 +43,12 @@ struct JuiceMaker {
         } catch(let error) {
             throw error
         }
+    
+    private func convertFuritsToArray() {
+        let fruits = self.fruitStore.fruits.map { fruit in
+            fruit.value
+        }.sorted {$0.id > $1.id}
+        
+        self.fruitArray = fruits
     }
 }
