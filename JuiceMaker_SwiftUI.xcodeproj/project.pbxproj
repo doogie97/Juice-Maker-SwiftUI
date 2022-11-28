@@ -69,6 +69,7 @@
 				ACF6041A29343E7800CD14FC /* View */,
 				ACD3C167293230EB00BB7B05 /* Model */,
 				ACD3C15D29322EF400BB7B05 /* Assets.xcassets */,
+				ACD3C16C2932368800BB7B05 /* FruitsArrayForApp.swift */,
 				ACD3C15F29322EF400BB7B05 /* Preview Content */,
 			);
 			path = JuiceMaker_SwiftUI;
@@ -86,18 +87,25 @@
 			isa = PBXGroup;
 			children = (
 				ACD3C1682932312500BB7B05 /* FruitStore.swift */,
+				ACD3C16E29324D6D00BB7B05 /* JuiceMaker.swift */,
 				ACD3C1702932546500BB7B05 /* OutOfStockError.swift */,
 				ACD3C16A2932347300BB7B05 /* Fruit.swift */,
-				ACD3C16E29324D6D00BB7B05 /* JuiceMaker.swift */,
-				ACD3C16C2932368800BB7B05 /* FruitsArrayForApp.swift */,
 			);
 			path = Model;
+			sourceTree = "<group>";
+		};
+		ACEA33382934A43100EE4474 /* EditCountView */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = EditCountView;
 			sourceTree = "<group>";
 		};
 		ACF6041A29343E7800CD14FC /* View */ = {
 			isa = PBXGroup;
 			children = (
 				ACF6041D29343E9100CD14FC /* MainView */,
+				ACEA33382934A43100EE4474 /* EditCountView */,
 			);
 			path = View;
 			sourceTree = "<group>";
