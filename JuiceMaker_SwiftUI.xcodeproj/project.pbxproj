@@ -107,6 +107,7 @@
 		ACF6041A29343E7800CD14FC /* View */ = {
 			isa = PBXGroup;
 			children = (
+				ACEA33342934948600EE4474 /* FruitsView.swift */,
 				ACF6041D29343E9100CD14FC /* MainView */,
 				ACEA33382934A43100EE4474 /* EditStockView */,
 			);
@@ -117,7 +118,6 @@
 			isa = PBXGroup;
 			children = (
 				ACF6041B29343E8E00CD14FC /* MainView.swift */,
-				ACEA33342934948600EE4474 /* FruitsView.swift */,
 				ACEA333629349FCD00EE4474 /* OrderButtonView.swift */,
 			);
 			path = MainView;
