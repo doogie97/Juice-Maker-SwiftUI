@@ -17,6 +17,7 @@
 		ACD3C16F29324D6D00BB7B05 /* JuiceMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C16E29324D6D00BB7B05 /* JuiceMaker.swift */; };
 		ACD3C1712932546500BB7B05 /* OutOfStockError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C1702932546500BB7B05 /* OutOfStockError.swift */; };
 		ACEA33352934948700EE4474 /* FruitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA33342934948600EE4474 /* FruitsView.swift */; };
+		ACEA333729349FCD00EE4474 /* OrderButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA333629349FCD00EE4474 /* OrderButtonView.swift */; };
 		ACF6041C29343E8E00CD14FC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF6041B29343E8E00CD14FC /* MainView.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		ACD3C16E29324D6D00BB7B05 /* JuiceMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuiceMaker.swift; sourceTree = "<group>"; };
 		ACD3C1702932546500BB7B05 /* OutOfStockError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutOfStockError.swift; sourceTree = "<group>"; };
 		ACEA33342934948600EE4474 /* FruitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsView.swift; sourceTree = "<group>"; };
+		ACEA333629349FCD00EE4474 /* OrderButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderButtonView.swift; sourceTree = "<group>"; };
 		ACF6041B29343E8E00CD14FC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +110,7 @@
 			children = (
 				ACF6041B29343E8E00CD14FC /* MainView.swift */,
 				ACEA33342934948600EE4474 /* FruitsView.swift */,
+				ACEA333629349FCD00EE4474 /* OrderButtonView.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ACD3C1712932546500BB7B05 /* OutOfStockError.swift in Sources */,
+				ACEA333729349FCD00EE4474 /* OrderButtonView.swift in Sources */,
 				ACF6041C29343E8E00CD14FC /* MainView.swift in Sources */,
 				ACD3C16B2932347300BB7B05 /* Fruit.swift in Sources */,
 				ACD3C16D2932368800BB7B05 /* FruitsArrayForApp.swift in Sources */,

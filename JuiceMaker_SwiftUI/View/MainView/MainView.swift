@@ -13,6 +13,7 @@ struct MainView: View {
     var body: some View {
         VStack {
             FruitsView()
+            OrderButtonView()
         }
     }
 }
@@ -29,4 +30,3 @@ extension View {
         UIApplication.shared.windows.first?.safeAreaInsets.bottom ?? 0 > 0
     }
 }
-
