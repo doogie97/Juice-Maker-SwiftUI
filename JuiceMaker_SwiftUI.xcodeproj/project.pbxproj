@@ -16,6 +16,7 @@
 		ACD3C16D2932368800BB7B05 /* FruitsArrayForApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C16C2932368800BB7B05 /* FruitsArrayForApp.swift */; };
 		ACD3C16F29324D6D00BB7B05 /* JuiceMaker.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C16E29324D6D00BB7B05 /* JuiceMaker.swift */; };
 		ACD3C1712932546500BB7B05 /* OutOfStockError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C1702932546500BB7B05 /* OutOfStockError.swift */; };
+		ACEA33352934948700EE4474 /* FruitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA33342934948600EE4474 /* FruitsView.swift */; };
 		ACF6041C29343E8E00CD14FC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF6041B29343E8E00CD14FC /* MainView.swift */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		ACD3C16C2932368800BB7B05 /* FruitsArrayForApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsArrayForApp.swift; sourceTree = "<group>"; };
 		ACD3C16E29324D6D00BB7B05 /* JuiceMaker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuiceMaker.swift; sourceTree = "<group>"; };
 		ACD3C1702932546500BB7B05 /* OutOfStockError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutOfStockError.swift; sourceTree = "<group>"; };
+		ACEA33342934948600EE4474 /* FruitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsView.swift; sourceTree = "<group>"; };
 		ACF6041B29343E8E00CD14FC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -105,6 +107,7 @@
 			isa = PBXGroup;
 			children = (
 				ACF6041B29343E8E00CD14FC /* MainView.swift */,
+				ACEA33342934948600EE4474 /* FruitsView.swift */,
 			);
 			path = MainView;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				ACD3C16B2932347300BB7B05 /* Fruit.swift in Sources */,
 				ACD3C16D2932368800BB7B05 /* FruitsArrayForApp.swift in Sources */,
 				ACD3C15C29322EF300BB7B05 /* ContentView.swift in Sources */,
+				ACEA33352934948700EE4474 /* FruitsView.swift in Sources */,
 				ACD3C15A29322EF300BB7B05 /* JuiceMaker_SwiftUIApp.swift in Sources */,
 				ACD3C1692932312500BB7B05 /* FruitStore.swift in Sources */,
 				ACD3C16F29324D6D00BB7B05 /* JuiceMaker.swift in Sources */,
@@ -321,8 +325,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -351,8 +354,7 @@
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",

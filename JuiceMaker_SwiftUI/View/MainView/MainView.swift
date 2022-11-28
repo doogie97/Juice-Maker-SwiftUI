@@ -8,13 +8,25 @@
 import SwiftUI
 
 struct MainView: View {
+    @EnvironmentObject var juiceMaker: JuiceMaker
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        VStack {
+            FruitsView()
+        }
     }
 }
 
 struct MainView_Previews: PreviewProvider {
     static var previews: some View {
         MainView()
+            .environmentObject(JuiceMaker(fruits: FruitsArrayForApp))
     }
 }
+
+extension View {
+    var hasNoch: Bool {
+        UIApplication.shared.windows.first?.safeAreaInsets.bottom ?? 0 > 0
+    }
+}
+
