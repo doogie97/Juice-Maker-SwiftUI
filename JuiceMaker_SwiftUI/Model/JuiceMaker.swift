@@ -7,8 +7,13 @@
 
 import SwiftUI
 
-struct JuiceMaker {
-    @EnvironmentObject var fruitStore: FruitStore
+final class JuiceMaker: ObservableObject {
+    private let fruitStore: FruitStore
+    @Published var fruitArray: [Fruit] = []
+    
+    init(fruits: [FruitName : Fruit]) {
+        self.fruitStore = FruitStore(fruits: fruits)
+    }
     
     enum Juice {
         case strawberryJuice
@@ -43,6 +48,9 @@ struct JuiceMaker {
         } catch(let error) {
             throw error
         }
+        
+        convertFuritsToArray()
+    }
     
     private func convertFuritsToArray() {
         let fruits = self.fruitStore.fruits.map { fruit in
