@@ -5,11 +5,18 @@
 //  Created by 최최성균 on 2022/11/26.
 //
 
-import Foundation
+import SwiftUI
 
-struct Fruit: Identifiable {
-    let id = UUID()
-    var count: Int
+final class Fruit: Identifiable, ObservableObject {
+    let id: Int
+    let fruitImage: String
+    @Published var count: Int
+    
+    init(id: Int, fruitImage: String, count: Int) {
+        self.id = id
+        self.fruitImage = fruitImage
+        self.count = count
+    }
 }
 
 enum FruitName: String {
