@@ -9,9 +9,12 @@ import SwiftUI
 
 @main
 struct JuiceMaker_SwiftUIApp: App {
+    @StateObject var juiceMaker = JuiceMaker(fruits: FruitsArrayForApp)
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
+                .environmentObject(juiceMaker)
         }
     }
 }
