@@ -16,16 +16,6 @@ final class JuiceMaker: ObservableObject {
         fruitArray = fruitsArray()
     }
     
-    enum Juice {
-        case strawberryJuice
-        case bananJuice
-        case kiwiJuice
-        case pineappleJuice
-        case ddalBaJuice
-        case mangoJuice
-        case mangKiJuice
-    }
-    
     func makeJuice(juice: Juice) throws {
         do {
             switch juice {
@@ -59,5 +49,34 @@ final class JuiceMaker: ObservableObject {
         }.sorted {$0.id < $1.id}
         
         return fruits
+    }
+}
+
+enum Juice {
+    case strawberryJuice
+    case bananJuice
+    case kiwiJuice
+    case pineappleJuice
+    case ddalBaJuice
+    case mangoJuice
+    case mangKiJuice
+    
+    var name: String {
+        switch self {
+        case .strawberryJuice:
+            return "딸기쥬스"
+        case .bananJuice:
+            return "바나나쥬스"
+        case .kiwiJuice:
+            return "키위쥬스"
+        case .pineappleJuice:
+            return "파인애플쥬스"
+        case .ddalBaJuice:
+            return "딸바쥬스"
+        case .mangoJuice:
+            return "망고쥬스"
+        case .mangKiJuice:
+            return "망키쥬스"
+        }
     }
 }
