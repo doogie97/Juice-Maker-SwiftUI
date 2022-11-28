@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		ACD3C15A29322EF300BB7B05 /* JuiceMaker_SwiftUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C15929322EF300BB7B05 /* JuiceMaker_SwiftUIApp.swift */; };
-		ACD3C15C29322EF300BB7B05 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C15B29322EF300BB7B05 /* ContentView.swift */; };
 		ACD3C15E29322EF400BB7B05 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD3C15D29322EF400BB7B05 /* Assets.xcassets */; };
 		ACD3C16129322EF400BB7B05 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ACD3C16029322EF400BB7B05 /* Preview Assets.xcassets */; };
 		ACD3C1692932312500BB7B05 /* FruitStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C1682932312500BB7B05 /* FruitStore.swift */; };
@@ -24,7 +23,6 @@
 /* Begin PBXFileReference section */
 		ACD3C15629322EF300BB7B05 /* JuiceMaker_SwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JuiceMaker_SwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ACD3C15929322EF300BB7B05 /* JuiceMaker_SwiftUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JuiceMaker_SwiftUIApp.swift; sourceTree = "<group>"; };
-		ACD3C15B29322EF300BB7B05 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		ACD3C15D29322EF400BB7B05 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ACD3C16029322EF400BB7B05 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		ACD3C1682932312500BB7B05 /* FruitStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitStore.swift; sourceTree = "<group>"; };
@@ -99,7 +97,6 @@
 		ACF6041A29343E7800CD14FC /* View */ = {
 			isa = PBXGroup;
 			children = (
-				ACD3C15B29322EF300BB7B05 /* ContentView.swift */,
 				ACF6041D29343E9100CD14FC /* MainView */,
 			);
 			path = View;
@@ -190,7 +187,6 @@
 				ACF6041C29343E8E00CD14FC /* MainView.swift in Sources */,
 				ACD3C16B2932347300BB7B05 /* Fruit.swift in Sources */,
 				ACD3C16D2932368800BB7B05 /* FruitsArrayForApp.swift in Sources */,
-				ACD3C15C29322EF300BB7B05 /* ContentView.swift in Sources */,
 				ACEA33352934948700EE4474 /* FruitsView.swift in Sources */,
 				ACD3C15A29322EF300BB7B05 /* JuiceMaker_SwiftUIApp.swift in Sources */,
 				ACD3C1692932312500BB7B05 /* FruitStore.swift in Sources */,
