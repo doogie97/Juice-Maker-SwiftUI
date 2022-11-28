@@ -17,6 +17,7 @@
 		ACD3C1712932546500BB7B05 /* OutOfStockError.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACD3C1702932546500BB7B05 /* OutOfStockError.swift */; };
 		ACEA33352934948700EE4474 /* FruitsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA33342934948600EE4474 /* FruitsView.swift */; };
 		ACEA333729349FCD00EE4474 /* OrderButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA333629349FCD00EE4474 /* OrderButtonView.swift */; };
+		ACEA333A2934A48600EE4474 /* EditStockView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACEA33392934A48600EE4474 /* EditStockView.swift */; };
 		ACF6041C29343E8E00CD14FC /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = ACF6041B29343E8E00CD14FC /* MainView.swift */; };
 /* End PBXBuildFile section */
 
@@ -32,6 +33,7 @@
 		ACD3C1702932546500BB7B05 /* OutOfStockError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OutOfStockError.swift; sourceTree = "<group>"; };
 		ACEA33342934948600EE4474 /* FruitsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FruitsView.swift; sourceTree = "<group>"; };
 		ACEA333629349FCD00EE4474 /* OrderButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderButtonView.swift; sourceTree = "<group>"; };
+		ACEA33392934A48600EE4474 /* EditStockView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditStockView.swift; sourceTree = "<group>"; };
 		ACF6041B29343E8E00CD14FC /* MainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -94,18 +96,19 @@
 			path = Model;
 			sourceTree = "<group>";
 		};
-		ACEA33382934A43100EE4474 /* EditCountView */ = {
+		ACEA33382934A43100EE4474 /* EditStockView */ = {
 			isa = PBXGroup;
 			children = (
+				ACEA33392934A48600EE4474 /* EditStockView.swift */,
 			);
-			path = EditCountView;
+			path = EditStockView;
 			sourceTree = "<group>";
 		};
 		ACF6041A29343E7800CD14FC /* View */ = {
 			isa = PBXGroup;
 			children = (
 				ACF6041D29343E9100CD14FC /* MainView */,
-				ACEA33382934A43100EE4474 /* EditCountView */,
+				ACEA33382934A43100EE4474 /* EditStockView */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -193,6 +196,7 @@
 				ACD3C1712932546500BB7B05 /* OutOfStockError.swift in Sources */,
 				ACEA333729349FCD00EE4474 /* OrderButtonView.swift in Sources */,
 				ACF6041C29343E8E00CD14FC /* MainView.swift in Sources */,
+				ACEA333A2934A48600EE4474 /* EditStockView.swift in Sources */,
 				ACD3C16B2932347300BB7B05 /* Fruit.swift in Sources */,
 				ACD3C16D2932368800BB7B05 /* FruitsArrayForApp.swift in Sources */,
 				ACEA33352934948700EE4474 /* FruitsView.swift in Sources */,
