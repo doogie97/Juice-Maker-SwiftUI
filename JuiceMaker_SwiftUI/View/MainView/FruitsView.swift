@@ -20,7 +20,7 @@ struct FruitsView: View {
                     
                     Text(fruit.count.description)
                         .font(.system(size: 30))
-                        .padding(.horizontal, hasNoch ? 45 : 35)
+                        .frame(width: hasNoch ? 120 : 100)
                         .background(Color.init(UIColor.systemGray5))
                 }
             }
