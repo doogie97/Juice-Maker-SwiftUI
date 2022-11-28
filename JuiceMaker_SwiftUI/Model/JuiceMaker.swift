@@ -13,6 +13,7 @@ final class JuiceMaker: ObservableObject {
     
     init(fruits: [FruitName : Fruit]) {
         self.fruitStore = FruitStore(fruits: fruits)
+        fruitArray = fruitsArray()
     }
     
     enum Juice {
@@ -49,14 +50,14 @@ final class JuiceMaker: ObservableObject {
             throw error
         }
         
-        convertFuritsToArray()
+        self.fruitArray = fruitsArray()
     }
     
-    private func convertFuritsToArray() {
+    private func fruitsArray() -> [Fruit] {
         let fruits = self.fruitStore.fruits.map { fruit in
             fruit.value
-        }.sorted {$0.id > $1.id}
+        }.sorted {$0.id < $1.id}
         
-        self.fruitArray = fruits
+        return fruits
     }
 }
